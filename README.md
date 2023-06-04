@@ -1,5 +1,5 @@
 # EbayBaseballScraper
-Using scrapy to pull baseball card sell information from ebay
+Using scrapy to pull baseball card sale information from ebay
 
 ## How to Run
 ```shell
