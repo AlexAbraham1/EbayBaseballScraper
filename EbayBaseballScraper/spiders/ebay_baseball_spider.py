@@ -22,8 +22,8 @@ class EbayBaseballSpider(scrapy.Spider):
             item['seller_num_reviews'] = seller_info[1][1:-1]
             item['seller_pct_positive_feedback'] = seller_info[2]
 
-            # Parse through 50 pages
-            for pgn in range(2,50):
+            # Parse through 500 pages
+            for pgn in range(2,500):
                 new_url = "https://www.ebay.com/sch/i.html?_from=R40&_nkw=baseball+card&_sacat=0&rt=nc&LH_Sold=1&LH_Complete=1" + f"&_pgn={pgn}"
                 yield scrapy.Request(new_url, callback=self.parse)
 

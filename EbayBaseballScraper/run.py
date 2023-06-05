@@ -1,2 +1,3 @@
 from scrapy import cmdline
-cmdline.execute("scrapy crawl ebay_baseball_spider -o output.json".split())
+import sys
+cmdline.execute("scrapy crawl {} -o output/{}.json".format(sys.argv[1], sys.argv[1]).split())
