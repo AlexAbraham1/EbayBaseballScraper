@@ -1,7 +1,7 @@
 import scrapy
 
-class EbaySpider(scrapy.Spider):
-    name = "ebay_spider"
+class EbayBaseballSpider(scrapy.Spider):
+    name = "ebay_baseball_spider"
     start_urls = ["https://www.ebay.com/sch/i.html?_from=R40&_nkw=baseball+card&_sacat=0&rt=nc&LH_Sold=1&LH_Complete=1"]
 
     def parse(self, response):
@@ -17,7 +17,7 @@ class EbaySpider(scrapy.Spider):
             item['num_bids'] = html_block.xpath(".//span[contains(@class, 's-item__bidCount')]//text()").get()
             item['shipping'] = html_block.xpath(".//span[contains(@class, 's-item__shipping')]//text()").get()
 
-            seller_info = item['seller_username'] = html_block.xpath(".//span[@class='s-item__seller-info-text']//text()").get().split(" ")
+            seller_info = html_block.xpath(".//span[@class='s-item__seller-info-text']//text()").get().split(" ")
             item['seller_username'] = seller_info[0]
             item['seller_num_reviews'] = seller_info[1][1:-1]
             item['seller_pct_positive_feedback'] = seller_info[2]
