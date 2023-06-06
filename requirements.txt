@@ -12,11 +12,13 @@ bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
 brotlipy==0.7.0
 certifi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b64zphacdv/croot/certifi_1683875375103/work/certifi
 cffi @ file:///Users/ec2-user/ci_py311/cffi_1678315312775/work
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+charset-normalizer==3.1.0
 comm @ file:///Users/ec2-user/ci_py311/comm_1678317779525/work
 constantly==15.1.0
+contourpy==1.0.7
 cryptography==41.0.1
 cssselect==1.2.0
+cycler==0.11.0
 debugpy @ file:///Users/ec2-user/ci_py311/debugpy_1678317801115/work
 decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
 defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
@@ -24,6 +26,7 @@ entrypoints @ file:///Users/ec2-user/ci_py311/entrypoints_1678316169365/work
 executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
 fastjsonschema @ file:///Users/ec2-user/ci_py311_2/python-fastjsonschema_1679338737111/work
 filelock==3.12.0
+fonttools==4.39.4
 hyperlink==21.0.0
 idna @ file:///Users/ec2-user/ci_py311/idna_1678315819133/work
 incremental==22.10.0
@@ -40,6 +43,8 @@ json5 @ file:///tmp/build/80754af9/json5_1624432770122/work
 jsonschema @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_f9p98o1kqf/croot/jsonschema_1678983430226/work
 jupyter @ file:///Users/ec2-user/ci_py311/jupyter_1678377791770/work
 jupyter-console @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_e8qcp1kdie/croot/jupyter_console_1679999714867/work
+jupyter-contrib-core==0.4.2
+jupyter-nbextensions-configurator==0.6.3
 jupyter-server @ file:///Users/ec2-user/ci_py311/jupyter_server_1678317903958/work
 jupyter_client @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_5e4bbpqn9e/croot/jupyter_client_1680171866753/work
 jupyter_core @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b82fz_h369/croot/jupyter_core_1679906581737/work
@@ -47,8 +52,10 @@ jupyterlab @ file:///Users/ec2-user/ci_py311/jupyterlab_1678323572026/work
 jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
 jupyterlab-widgets @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_9btffb27id/croot/jupyterlab_widgets_1679055288818/work
 jupyterlab_server @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_9039tf6tpv/croot/jupyterlab_server_1680792539169/work
+kiwisolver==1.4.4
 lxml @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_cccmd60j4n/croot/lxml_1679646460589/work
 MarkupSafe @ file:///Users/ec2-user/ci_py311/markupsafe_1678316973889/work
+matplotlib==3.7.1
 matplotlib-inline @ file:///Users/ec2-user/ci_py311/matplotlib-inline_1678317544666/work
 mistune @ file:///Users/ec2-user/ci_py311/mistune_1678317272228/work
 nbclassic @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_e9be4uk5qu/croot/nbclassic_1681756175065/work
@@ -66,6 +73,7 @@ parsel==1.8.1
 parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow==9.5.0
 platformdirs @ file:///Users/ec2-user/ci_py311/platformdirs_1678315988118/work
 ply==3.11
 prometheus-client @ file:///Users/ec2-user/ci_py311_2/prometheus_client_1679340232148/work
@@ -80,11 +88,13 @@ pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 PyDispatcher==2.0.7
 Pygments @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_cflayrfqsi/croot/pygments_1684279981084/work
 pyOpenSSL @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_19gfn1ib_u/croot/pyopenssl_1678965300171/work
+pyparsing==3.0.9
 PyQt5-sip==12.11.0
 pyrsistent @ file:///Users/ec2-user/ci_py311/pyrsistent_1678316053523/work
 PySocks @ file:///Users/ec2-user/ci_py311/pysocks_1678315868424/work
 python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
 pytz @ file:///Users/ec2-user/ci_py311/pytz_1678318034461/work
+PyYAML==6.0
 pyzmq @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_45g440l380/croot/pyzmq_1682697646668/work
 qtconsole @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_dexq2hi2gu/croot/qtconsole_1681394223590/work
 QtPy @ file:///Users/ec2-user/ci_py311/qtpy_1678322936834/work
